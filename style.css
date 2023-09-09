@@ -353,7 +353,19 @@ article {
 article .icon {
   cursor: default;
 }
+#certifications {
+  width: 75%;  /* Adjust this width as you like */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
 
+#certifications .ico:not(#arrow-icon) {
+  width: 80px;  /* Set to your desired size */
+  height: 80px; /* Same as width for a perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Keeps aspect ratio */
+}
 /* PROJECTS SECTION */
 
 #projects {
